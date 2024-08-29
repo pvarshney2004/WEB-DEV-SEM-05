@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body
+{
+    height: 100%;
+    width: 100%;
+} */
+h1{
+    align-items: center;
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:2px 2px 3px black;
+}
+h1:hover{
+    font-style: oblique;
+    font-weight: 700;
+    cursor: crosshair;
+}
+legend
+{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform:uppercase;
+    color:olivedrab;
+    
+}
+legend:hover
+{
+    text-shadow: 2px 2px 5px rgb(190, 190, 7);
+    font-style: oblique;
+    font-weight: 500;
+    cursor: crosshair;
+}
