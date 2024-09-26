@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+}
+
+#logo>img {
+    height: 100px;
+
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7% 0 2%;
+}
+
+#nav-items>ul {
+    display: flex;
+    gap: 25px;
+}
+
+#nav-items a {
+    color: white;
+    font-size: 20px;
+}
+
+#nav-items a:hover {
+    /* background-color: white;
+    color: black; */
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+#hero{
+    margin-top: 104px;
+    height: 84vh;
+    border: solid red;
+    /* background: linear-gradient(0deg,#B3DEC1,#E5FCF5,#bde0fe); */
+    background-image: url("https://img.freepik.com/free-vector/background-wave-minimalist-modern-style_483537-5220.jpg");
+    background-size: cover;
+}

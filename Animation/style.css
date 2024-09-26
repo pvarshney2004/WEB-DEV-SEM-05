@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: firstAnimate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes firstAnimate {
+  0% {
+    background-color: red;
+    left: 0;
+    top: 0;
+
+  }
+  25%{
+    transform: rotate(1turn);
+    background-color: orangered;
+    left: 75%;
+    top: 0;
+
+  }
+  50%{
+    transform: rotate(1turn);
+    background-color: orange;
+    left: 75%;
+    top: 60%;
+    border-radius: 50%;
+  }
+  75%{
+    background-color: aqua;
+    left: 0;
+    top: 60%;
+  }
+  100%{
+    background-color: blue;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+#gradient{
+    width: 100vw;
+    height: 100vh;
+    animation-name: gradientChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes gradientChange {
+    0%{
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,49,1) 22%, rgba(0,212,255,1) 100%);
+
+    }
+    25%{
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+    }
+    50%{
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,1) 22%, rgba(0,212,255,1) 100%);
+
+    }
+    75%{
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+    }
+    100%{
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    }
+}
+/* h2>span{
+width: 100;
+} */
+h2:hover{
+    text-decoration: underline;
+}
