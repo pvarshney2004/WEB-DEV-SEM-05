@@ -1,0 +1,9 @@
+.navbar{
+    width: 100vw;
+    background-color: aquamarine;
+    padding: 10px;
+    top: 0;
+    position: fixed;
+    left: 0;
+
+}
